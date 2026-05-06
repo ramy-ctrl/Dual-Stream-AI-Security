@@ -5,7 +5,7 @@ A 13-week R&D project pairing two complementary security efforts:
 1. **Track 1 — Vulnerability & Defense.** AI-powered countermeasures for the OWASP Top 10 LLM (2025) — focused on **Prompt Injection (LLM01)** and **System Prompt Leakage (LLM07)**.
 2. **Track 2 — Malware Detection.** An LLM-based framework for **day-zero malware analysis** that maps binary and assembly representations to natural-language intent, built around the **SBAN (Static Binary Analysis with Natural language) Dataset (2025)**.
 
-> **Author:** Rami Shmaitelli | 2nd year CCE | rbs13@mail.aub.edu
+> **Author:** Rami Shmaitelli | rbs13@mail.aub.edu
 > **Course:** VIP 202A
 > **Date:** May 2026
 
