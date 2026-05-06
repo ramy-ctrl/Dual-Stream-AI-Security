@@ -1,0 +1,11 @@
+solution,track,attacks_covered,robustness,computational_cost,latency_ms,scalability,notes
+Heuristic Pattern Filter (D1),Track 1,"A1, A3, A4",Low,Negligible,< 0.1,High,"Easy to evade by paraphrase; useful as a first-pass."
+TF-IDF Semantic Classifier (D2),Track 1,"A1, A3, A4",Medium,Low,~ 0.5,High,"Trained in this work; robust to common rephrasings."
+Structural Input Separation (D3),Track 1,"A1, A2",Medium,Negligible,< 0.1,High,"Implemented via wrap_for_model() delimiter scheme."
+Dual LLM Architecture (D4),Track 1,"A1, A2, A6",High,2x inference,~ 2x,Medium,"Architectural; not implemented in this prototype."
+Canary Token + Output Filter (D5+D6),Track 1,"A4, A5",Medium-High,Negligible,~ 1,High,"Implemented; catches verbatim leaks deterministically."
+Constitutional Self-Critique (D9),Track 1,"A1, A3, A5",Medium-High,+1 inference call,+ inference RTT,Low (high QPS),"Architectural baseline only."
+Opcode Frequency Classifier (Baseline),Track 2,Day-zero malware,High in-distribution; LOW on day-zero,Low,~ 1,High,"Training acc 1.00 IID, 0.00 OOD on held-out family."
+Intent-Augmented Classifier (Ours),Track 2,Day-zero malware,Medium-High,Low (heuristic) / Medium (LLM),~ 5 (heuristic) / ~500 (LLM),Medium,"OOD acc 0.83 / F1 0.91 on held-out Spyware family."
+EMBER-style Gradient Boosted Forest (Reference),Track 2,Static malware,High,Medium,~ 10,High,"Reference baseline from Anderson et al. 2018; not reimplemented here."
+LLM Binary-to-Intent (Pure LLM),Track 2,Day-zero malware,High (literature),High,~ 500-2000,Low (cost),"Architectural; supported by chat_fn hook in IntentMapper."

@@ -1,0 +1,115 @@
+{
+  "track": "Track 2 \u2014 Day-Zero Malware Detection",
+  "n_samples": 60,
+  "holdout_family": "Spyware",
+  "train_size": 38,
+  "iid_test_size": 10,
+  "ood_test_size": 12,
+  "with_intent": {
+    "iid": {
+      "n_train": 0,
+      "n_test": 10,
+      "accuracy": 0.9,
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1": 0.8889,
+      "confusion": {
+        "TP": 4,
+        "FP": 1,
+        "TN": 5,
+        "FN": 0
+      }
+    },
+    "ood_dayzero": {
+      "n_train": 0,
+      "n_test": 12,
+      "accuracy": 0.8333,
+      "precision": 1.0,
+      "recall": 0.8333,
+      "f1": 0.9091,
+      "confusion": {
+        "TP": 10,
+        "FP": 0,
+        "TN": 0,
+        "FN": 2
+      }
+    }
+  },
+  "without_intent": {
+    "iid": {
+      "n_train": 0,
+      "n_test": 10,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "confusion": {
+        "TP": 4,
+        "FP": 0,
+        "TN": 6,
+        "FN": 0
+      }
+    },
+    "ood_dayzero": {
+      "n_train": 0,
+      "n_test": 12,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "confusion": {
+        "TP": 0,
+        "FP": 0,
+        "TN": 0,
+        "FN": 12
+      }
+    }
+  },
+  "intent_examples": [
+    {
+      "sample_id": "benign-office_000",
+      "intent": "Balanced mix of memory, stack, and call instructions typical of an interactive desktop application.",
+      "tags": [
+        "benign",
+        "interactive"
+      ],
+      "malicious": false
+    },
+    {
+      "sample_id": "benign-office_001",
+      "intent": "Balanced mix of memory, stack, and call instructions typical of an interactive desktop application.",
+      "tags": [
+        "benign",
+        "interactive"
+      ],
+      "malicious": false
+    },
+    {
+      "sample_id": "benign-office_002",
+      "intent": "Balanced mix of memory, stack, and call instructions typical of an interactive desktop application.",
+      "tags": [
+        "benign",
+        "interactive"
+      ],
+      "malicious": false
+    },
+    {
+      "sample_id": "benign-office_003",
+      "intent": "Balanced mix of memory, stack, and call instructions typical of an interactive desktop application.",
+      "tags": [
+        "benign",
+        "interactive"
+      ],
+      "malicious": false
+    },
+    {
+      "sample_id": "benign-office_004",
+      "intent": "Balanced mix of memory, stack, and call instructions typical of an interactive desktop application.",
+      "tags": [
+        "benign",
+        "interactive"
+      ],
+      "malicious": false
+    }
+  ]
+}

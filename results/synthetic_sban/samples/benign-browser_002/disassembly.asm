@@ -1,0 +1,200 @@
+0x00401000: add ebx, edi
+0x00401004: and edx, edi
+0x0040100b: cmp esi, eax
+0x00401012: cmp ebx, eax
+0x00401016: and eax, edx
+0x00401018: cmp ecx, eax
+0x0040101c: pop eax
+0x00401022: sub ebx, edx
+0x00401027: xor edi, eax
+0x00401029: pop eax
+0x0040102d: lea eax, esi
+0x0040102f: call 0x00400f92
+0x00401032: pop esi
+0x00401034: add edx, esi
+0x0040103a: add ecx, edx
+0x0040103f: call 0x00401098
+0x00401045: sub edx, ecx
+0x00401049: push edi
+0x0040104d: add ecx, ebx
+0x00401051: and edi, edx
+0x00401056: push esi
+0x00401058: sub ecx, edi
+0x0040105a: test eax, edx
+0x00401061: pop edx
+0x00401068: jmp 0x00400ff6
+0x0040106a: jmp 0x00400fe7
+0x00401070: sub ecx, ebx
+0x00401074: mov edx, esi
+0x0040107b: call 0x00401161
+0x00401081: pop edx
+0x00401088: mov ebx, eax
+0x0040108f: push ecx
+0x00401091: mov edi, ecx
+0x00401093: test edi, ecx
+0x0040109a: add edx, ebx
+0x004010a0: nop
+0x004010a5: jmp 0x0040113e
+0x004010ac: pop esi
+0x004010ae: push ecx
+0x004010b3: sub edx, eax
+0x004010ba: jmp 0x00401144
+0x004010be: ret
+0x004010c4: and ebx, edi
+0x004010ca: sub esi, edi
+0x004010cc: pop ebx
+0x004010d1: mov eax, ecx
+0x004010d8: lea esi, edx
+0x004010db: pop edx
+0x004010dd: push edx
+0x004010e4: ret
+0x004010ea: test ebx, edi
+0x004010ed: cmp ebx, eax
+0x004010ef: push edx
+0x004010f6: cmp eax, ebx
+0x004010fa: cmp edx, ecx
+0x004010fd: add edi, ecx
+0x00401104: call 0x004011eb
+0x0040110b: pop eax
+0x00401112: call 0x0040109d
+0x00401118: mov edi, edx
+0x0040111a: xor edi, ecx
+0x0040111d: mov esi, edi
+0x0040111f: push edi
+0x00401123: sub edx, edi
+0x0040112a: mov edi, esi
+0x0040112f: push ebx
+0x00401132: mov ecx, eax
+0x00401136: add eax, edi
+0x00401138: lea ecx, esi
+0x0040113b: nop
+0x00401142: push eax
+0x00401148: mov ecx, ebx
+0x0040114c: jmp 0x004011d1
+0x00401152: pop edi
+0x00401154: cmp ecx, eax
+0x0040115a: push esi
+0x0040115d: mov edx, edi
+0x00401161: push ecx
+0x00401168: push ebx
+0x0040116e: call 0x00401151
+0x00401170: sub edx, eax
+0x00401176: push edx
+0x0040117a: jz 0x0040110e
+0x0040117e: mov ebx, edx
+0x00401185: and edx, ebx
+0x0040118b: call 0x004011ad
+0x0040118e: mov edi, eax
+0x00401194: call 0x004011db
+0x00401198: ret
+0x0040119e: jmp 0x0040111c
+0x004011a2: jmp 0x0040128b
+0x004011a9: lea ebx, edx
+0x004011ad: jz 0x0040122e
+0x004011af: mov ecx, ebx
+0x004011b6: call 0x0040118d
+0x004011bd: lea ebx, eax
+0x004011c0: jmp 0x004012b3
+0x004011c7: test edx, ecx
+0x004011ce: add ebx, eax
+0x004011d4: mov edx, ecx
+0x004011d9: jmp 0x004012bd
+0x004011dd: push edx
+0x004011e2: call 0x0040112b
+0x004011e8: call 0x00401209
+0x004011ec: call 0x004011b3
+0x004011f3: add esi, edx
+0x004011f5: mov ebx, ecx
+0x004011fb: mov eax, ecx
+0x00401200: call 0x004011a7
+0x00401206: mov ebx, edx
+0x0040120d: push edx
+0x00401211: mov ebx, edi
+0x00401214: ret
+0x0040121b: jmp 0x004011e3
+0x00401222: ret
+0x00401229: test eax, ecx
+0x00401230: nop
+0x00401236: and eax, ebx
+0x0040123b: call 0x004012f0
+0x00401242: call 0x004011ee
+0x00401244: sub eax, ecx
+0x00401249: add ebx, eax
+0x0040124b: call 0x004012a5
+0x00401251: mov edx, ebx
+0x00401258: test edi, edx
+0x0040125b: call 0x0040117d
+0x0040125d: add ebx, edx
+0x00401262: push ecx
+0x00401269: call 0x00401219
+0x00401270: push edi
+0x00401275: test edi, eax
+0x0040127a: cmp edi, edx
+0x0040127e: ret
+0x00401285: call 0x0040134c
+0x00401289: cmp eax, edi
+0x0040128b: cmp eax, edi
+0x00401290: sub edi, esi
+0x00401293: test eax, esi
+0x00401299: jmp 0x00401384
+0x0040129d: push edi
+0x004012a4: mov eax, esi
+0x004012a7: jz 0x00401330
+0x004012ac: sub edi, edx
+0x004012b0: cmp esi, ebx
+0x004012b2: cmp ecx, eax
+0x004012b9: sub esi, ebx
+0x004012be: push edi
+0x004012c0: call 0x00401353
+0x004012c6: cmp esi, edi
+0x004012cb: push eax
+0x004012d1: add esi, edi
+0x004012d8: shl edi, eax
+0x004012db: lea edi, eax
+0x004012de: mov esi, ebx
+0x004012e0: jmp 0x004013a9
+0x004012e4: sub eax, edi
+0x004012e7: test esi, ebx
+0x004012ee: call 0x00401293
+0x004012f0: add esi, ecx
+0x004012f2: test eax, edi
+0x004012f8: ret
+0x004012fc: push ecx
+0x00401302: call 0x004012b1
+0x00401307: lea edi, eax
+0x0040130a: push ecx
+0x0040130c: pop esi
+0x00401310: shr edi, esi
+0x00401315: sub ebx, esi
+0x0040131a: call 0x0040135a
+0x00401320: pop ecx
+0x00401326: call 0x004012fc
+0x0040132d: xor eax, edi
+0x00401330: jmp 0x00401255
+0x00401333: mov ebx, ecx
+0x00401336: sub ebx, esi
+0x0040133c: jz 0x00401319
+0x00401342: pop ecx
+0x00401346: mov ebx, esi
+0x0040134b: jmp 0x00401297
+0x00401351: nop
+0x00401355: call 0x0040135f
+0x0040135a: pop edi
+0x0040135d: and edx, edi
+0x0040135f: lea ecx, edx
+0x00401366: mov ebx, esi
+0x00401369: mov eax, ecx
+0x00401370: cmp edi, ebx
+0x00401377: ret
+0x0040137b: sub esi, edi
+0x00401381: jmp 0x00401328
+0x00401386: mov ebx, ecx
+0x0040138b: call 0x0040140f
+0x0040138d: cmp esi, ebx
+0x0040138f: push ecx
+0x00401391: mov esi, eax
+0x00401398: nop
+0x0040139e: call 0x0040143e
+0x004013a0: jz 0x004013f1
+0x004013a7: push eax
+0x004013ab: mov ecx, edi

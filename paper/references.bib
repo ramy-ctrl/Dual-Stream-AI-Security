@@ -1,0 +1,137 @@
+% =============================================================================
+% references.bib
+% Bibliography for "Dual-Stream AI Security: LLM Defense and Zero-Day Malware
+% Detection" — VIP 202A R&D Project, May 2026.
+% Author: Rami Shmaitelli (rbs13@mail.aub.edu)
+% =============================================================================
+
+% --- Track 1: LLM Security ---------------------------------------------------
+
+@misc{owasp_llm_top10_2025,
+  author       = {{OWASP Foundation}},
+  title        = {{OWASP Top 10 for Large Language Model Applications, 2025 Edition}},
+  year         = {2025},
+  howpublished = {\url{https://owasp.org/www-project-top-10-for-large-language-model-applications/}},
+  note         = {Accessed: 2026-04-15}
+}
+
+@misc{greshake2023indirect,
+  author        = {Greshake, Kai and Abdelnabi, Sahar and Mishra, Shailesh and
+                   Endres, Christoph and Holz, Thorsten and Fritz, Mario},
+  title         = {{Not what you've signed up for: Compromising real-world
+                    LLM-integrated applications with indirect prompt injection}},
+  year          = {2023},
+  eprint        = {2302.12173},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CR},
+  url           = {https://arxiv.org/abs/2302.12173}
+}
+
+@misc{perez2022ignore,
+  author        = {Perez, Fábio and Ribeiro, Ian},
+  title         = {{Ignore Previous Prompt: Attack Techniques For Language Models}},
+  year          = {2022},
+  eprint        = {2211.09527},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2211.09527}
+}
+
+@misc{liu2024promptinjection,
+  author        = {Liu, Yi and Deng, Gelei and Xu, Zhengzi and Li, Yuekang and
+                   Zheng, Yaowen and Zhang, Ying and Zhao, Lida and
+                   Zhang, Tianwei and Liu, Yang},
+  title         = {{Prompt Injection attack against LLM-integrated Applications}},
+  year          = {2024},
+  eprint        = {2306.05499},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CR},
+  url           = {https://arxiv.org/abs/2306.05499}
+}
+
+% --- Track 2: Static Malware Analysis ----------------------------------------
+
+@misc{anderson2018ember,
+  author        = {Anderson, Hyrum S. and Roth, Phil},
+  title         = {{EMBER: An Open Dataset for Training Static PE Malware
+                    Machine Learning Models}},
+  year          = {2018},
+  eprint        = {1804.04637},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CR},
+  url           = {https://arxiv.org/abs/1804.04637}
+}
+
+@inproceedings{kolosnjaji2016deep,
+  author    = {Kolosnjaji, Bojan and Zarras, Apostolis and Webster, George and
+               Eckert, Claudia},
+  title     = {{Deep Learning for Classification of Malware System Call Sequences}},
+  booktitle = {Australasian Joint Conference on Artificial Intelligence (AI 2016)},
+  year      = {2016},
+  pages     = {137--149},
+  publisher = {Springer},
+  doi       = {10.1007/978-3-319-50127-7_11}
+}
+
+@inproceedings{raff2018malconv,
+  author    = {Raff, Edward and Barker, Jon and Sylvester, Jared and
+               Brandon, Robert and Catanzaro, Bryan and Nicholas, Charles},
+  title     = {{Malware Detection by Eating a Whole EXE}},
+  booktitle = {AAAI Workshop on Artificial Intelligence for Cyber Security},
+  year      = {2018},
+  url       = {https://arxiv.org/abs/1710.09435}
+}
+
+@inproceedings{schultz2001data,
+  author    = {Schultz, Matthew G. and Eskin, Eleazar and Zadok, Erez and
+               Stolfo, Salvatore J.},
+  title     = {{Data Mining Methods for Detection of New Malicious Executables}},
+  booktitle = {Proceedings of the IEEE Symposium on Security and Privacy (S\&P 2001)},
+  year      = {2001},
+  pages     = {38--49},
+  publisher = {IEEE},
+  doi       = {10.1109/SECPRI.2001.924286}
+}
+
+@article{ucci2019survey,
+  author  = {Ucci, Daniele and Aniello, Leonardo and Baldoni, Roberto},
+  title   = {{Survey of machine learning techniques for malware analysis}},
+  journal = {Computers \& Security},
+  volume  = {81},
+  pages   = {123--147},
+  year    = {2019},
+  doi     = {10.1016/j.cose.2018.11.001}
+}
+
+@misc{sban2025,
+  author       = {{SBAN Working Group}},
+  title        = {{SBAN: Static Binary Analysis with Natural Language Annotations}},
+  year         = {2025},
+  howpublished = {Dataset documentation; accessed via the project Arxiv submission},
+  note         = {See the project's accompanying repository and Arxiv preprint for
+                  manifest format and intent-annotation schema.}
+}
+
+% --- Methodological / Background --------------------------------------------
+
+@inproceedings{hu2021malgraph,
+  author    = {Hu, Xiaohui and Chiueh, Tzi-cker and Shin, Kang G.},
+  title     = {{MalGraph: Hierarchical Graph Neural Networks for Robust Windows
+                Malware Detection}},
+  booktitle = {IEEE INFOCOM 2022 -- IEEE Conference on Computer Communications},
+  year      = {2022},
+  pages     = {1998--2007},
+  publisher = {IEEE},
+  doi       = {10.1109/INFOCOM48880.2022.9796837}
+}
+
+@inproceedings{freitas2022malnet,
+  author    = {Freitas, Scott and Duggal, Rahul and Chau, Duen Horng},
+  title     = {{MalNet: A Large-Scale Image Database of Malicious Software}},
+  booktitle = {Proceedings of the 31st ACM International Conference on
+               Information and Knowledge Management (CIKM '22)},
+  year      = {2022},
+  pages     = {3948--3952},
+  publisher = {ACM},
+  doi       = {10.1145/3511808.3557533}
+}

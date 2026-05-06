@@ -1,0 +1,14 @@
+# Core
+numpy>=1.24
+scikit-learn>=1.3
+pandas>=2.0
+
+# NLP / LLM utilities (optional — pipeline degrades gracefully if absent)
+# transformers>=4.40
+# sentence-transformers>=2.5
+
+# Testing
+pytest>=7.4
+
+# Reporting
+matplotlib>=3.7

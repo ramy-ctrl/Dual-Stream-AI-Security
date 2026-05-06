@@ -1,0 +1,3 @@
+{
+  "intent": "Process enumerates user files and encrypts them with a symmetric cipher, then writes a ransom note."
+}

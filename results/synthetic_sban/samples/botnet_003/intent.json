@@ -1,0 +1,3 @@
+{
+  "intent": "Process beacons to a remote command-and-control server, awaits commands, and forwards them to local services."
+}
